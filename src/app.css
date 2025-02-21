@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+
+@layer base {
+    .signature-text {
+      @apply bg-gradient-to-b from-purple-500 to-indigo-600 inline-block text-transparent bg-clip-text;
+    }
+  }
